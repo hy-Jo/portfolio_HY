@@ -14,9 +14,9 @@ const navItems = [
 export default function Nav() {
   const pathname = usePathname();
   return (
-    <nav className="flex items-center justify-between py-4">
+    <nav className="flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 max-w-6xl mx-auto">
       <div className="flex gap-6 items-center">
-        <span className="font-bold text-lg tracking-tight">HY Jo</span>
+        <span className="font-bold text-lg tracking-tight mr-2">HY Jo</span>
         {navItems.map((item) => (
           <Link
             key={item.href}

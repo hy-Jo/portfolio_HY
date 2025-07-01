@@ -34,8 +34,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ko" suppressHydrationWarning>
       <body className={`${inter.variable} ${noto.variable} bg-background text-foreground min-h-screen antialiased transition-colors`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Nav />
-          <main className="container mx-auto px-4 py-8">{children}</main>
+          <div className="py-2">
+            <Nav />
+          </div>
+          <main className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-8">{children}</main>
         </ThemeProvider>
       </body>
     </html>
