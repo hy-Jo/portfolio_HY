@@ -1,0 +1,1 @@
+"# How to Add Your Profile Photo\n\n1. Add your profile photo to the public directory\n2. Name it 'profile.jpg' or update the src path in src/app/about/page.tsx\n3. Uncomment the Image component in the About Me page\n\nRecommended image size: 400x400 pixels or larger, square aspect ratio" 
